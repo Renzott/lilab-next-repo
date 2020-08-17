@@ -6,7 +6,7 @@ const https = (path,baseURL) => {
 
     // SOLO DE DEMOSTRACION
     // Cambiar la URL a la de net core
-    var BASE_URL =  baseURL ?? "https://localhost:5001/api"
+    var BASE_URL =  baseURL ?? "https://lilab-backend-netcore.herokuapp.com/api"
 
     var created = axios.create({
         baseURL:  BASE_URL + path,
