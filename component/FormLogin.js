@@ -43,13 +43,13 @@ const FormLogin = () => {
             <div className="form-group">
                 <input type="password" 
                         className="form-control" 
-                        placeholder="Correo de Usuario" 
+                        placeholder="Contraseña" 
                         name="password"
                         value={form.pwd}
                         onChange={handleInputChange}
                         id="password"/>
             </div>
-            <button type="submit" className="btn btn-primary">Primary</button>
+            <button type="submit" className="btn btn-primary">Login</button>
             
         </form>
     )
